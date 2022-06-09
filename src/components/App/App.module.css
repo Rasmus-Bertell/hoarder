@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+  .app {
+    max-width: 75%;
+    margin-inline: auto;
+  }
+}

@@ -1,0 +1,37 @@
+.cover {
+  display: block;
+
+  width: 100%;
+  max-width: 20rem;
+
+  object-fit: fill;
+}
+
+.cover.placeholder {
+  background-color: #cacaca;
+  padding: 2rem;
+}
+
+.cover.large {
+  min-width: 36rem;
+  max-width: 36rem;
+
+  min-height: 52rem;
+  max-height: 52rem;
+}
+
+.cover.medium {
+  min-width: 18rem;
+  max-width: 18rem;
+
+  min-height: 26rem;
+  max-height: 26rem;
+}
+
+.cover.small {
+  min-width: 9rem;
+  max-width: 9rem;
+
+  min-height: 13rem;
+  max-height: 13rem;
+}

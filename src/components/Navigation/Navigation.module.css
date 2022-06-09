@@ -1,0 +1,11 @@
+.link {
+  color: #ffffff;
+  font-size: 2rem;
+
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+
+  margin-inline-start: 1rem;
+}

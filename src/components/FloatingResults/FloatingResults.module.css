@@ -1,0 +1,26 @@
+.result {
+  position: absolute;
+
+  z-index: 10;
+
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  gap: 1rem;
+
+  align-items: center;
+
+  background-color: #ffffff;
+  outline: 1px solid #dbdbdb;
+
+  color: #2a2a2a;
+
+  transition: all 150ms ease-in-out;
+}
+
+.item:hover {
+  outline-color: #ffbb00;
+  transform: scale(1.05);
+}
