@@ -2,7 +2,7 @@
 
 Movie collection manager and organizer.
 
-Add movies you own or want to own to your list and have them organized and in
+Add movies you own or want to own to your list and have them organized in
 one place. Quickly browse through your collection and see all your movies at a
 glance.
 
@@ -13,10 +13,11 @@ glance.
 - [ ] Media formats independent of app so they can be added and removed
 - [ ] Multiple lists, e.g. your collection, wishlist, custom
 - [ ] Mark media as watched/read/consumed
+- [ ] Reflect media status everywhere, info page add _AND_ remove actions
 - [ ] Reviews
 - [ ] Notes
 
-Stretch goal is to port this to React Native and have an android app
+Stretch goal is to port this to React Native and have an android app.
 
 ## Development
 
