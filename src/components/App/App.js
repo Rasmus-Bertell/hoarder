@@ -1,13 +1,13 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import styles from './App.module.css';
 
 import { fetchMovies } from '../../omdb';
 import { addMovie, deleteMovie, getMovies } from './../../data';
-import MediaList from '../MediaList/MediaList';
+
 import Layout from '../Layout/Layout';
-import Info from '../Info/Info';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import MediaList from '../MediaList/MediaList';
 import MovieInfo from '../MovieInfo/MovieInfo';
 
 export default class App extends React.Component {
@@ -48,9 +48,7 @@ export default class App extends React.Component {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<MediaList movies={this.state.movies} onRemove={this.removeAction} />} />
-              <Route path="info" element={<Info />}>
-                <Route path=":imdbID" element={<MovieInfo onAdd={this.addAction}/>} />
-              </Route>
+              <Route path="info/:imdbID" element={<MovieInfo onAdd={this.addAction}/>} />
             </Route>
           </Routes>
         </BrowserRouter>
