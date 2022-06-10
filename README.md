@@ -11,6 +11,7 @@ glance.
 - [ ] Backend for persistent changes; database and login
 - [ ] Support for multiple media types; movies, books, series, etc.
 - [ ] Media formats independent of app so they can be added and removed
+- [ ] Change app layout from flex based to grid based instead
 - [ ] Multiple lists, e.g. your collection, wishlist, custom
 - [ ] Mark media as watched/read/consumed
 - [ ] Reflect media status everywhere, info page add _AND_ remove actions
